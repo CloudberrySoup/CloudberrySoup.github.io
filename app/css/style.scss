@@ -1,0 +1,219 @@
+@import "globals";
+
+nav {
+    padding: 0px, 0;
+    display: flex;
+}
+
+h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 2.3rem;
+}
+
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    padding: 0 30px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+/*--------------------FUNCTIONAL-------------------------*/
+
+.dib {
+    display: inline-block;
+}
+
+.purple-font {
+    color: #9E00FF    
+}
+
+
+/*----------------@@@SECTIONS@@@-------------------------*/
+
+/*--------------------NAVBAR-------------------------*/
+
+.navbar {
+    padding: 40px 0;
+}
+
+.navflex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.logo {
+    //border-style: solid;
+    //border-width: 3px;
+    //border-color: green;
+    color: black;
+}
+
+.burger-button {
+    height: 40px;
+    width: 40px;
+    padding-top: 11px;
+    background-color: #9E00FF10;
+    border-radius: 20%;
+}
+
+.bar {
+    height: 3px;
+    width: 18px;
+    margin: 0px auto 3px auto;
+    padding: 0;
+    background-color: #9E00FF;
+    border-radius: 4px;
+
+}   
+
+/*--------------------HERO-SEC.-------------------------*/
+
+.hero {
+    padding: 40px 0 100px 0;
+}
+
+.location {
+    margin-bottom: 8px;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.title {
+    font-size: 2.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.intro {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.fingercont{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 70px auto 0 auto;
+}
+
+.finger {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    transform: scaleX(-1) rotate(180deg);
+
+}
+
+/*--------------------PROJECTS-SEC.-------------------------*/
+
+.project1 {
+    padding: 0 0 40px 0 ;
+    margin: 0 0 60px 0;
+    border-bottom: 2px solid #9E00FF;
+}
+
+.project2 {
+    padding: 0 0 40px 0 ;
+    margin: 0 0 60px 0;
+    border-bottom: 2px solid #25ac4e;
+}
+
+.scroller {
+    display: flex;
+    height: 20px;
+    width: 150px;
+}
+
+.bar-project1 {
+    height: 4px;
+    width: 48px;
+    margin: 12px 9px 5px 0;
+    padding: 0;
+    background-color: #9E00FF;
+    border-radius: 4px;
+}
+
+.bar-project {
+    height: 4px;
+    width: 24px;
+    margin: 12px 9px 5px 0;
+    padding: 0;
+    background-color: #ebebeb;
+    border-radius: 4px;
+}
+
+.bar-project2 {
+    height: 4px;
+    width: 48px;
+    margin: 12px 9px 5px 0;
+    padding: 0;
+    background-color: #25ac4e;
+    border-radius: 4px;
+}
+
+.subtitle-project {
+    font-size: 1.2rem;
+    padding-top: 30px;
+}
+
+.description {
+    font-family: 'Ubuntu Mono', monospace, sans-serif;
+    line-height: 1.6rem;
+    font-weight: 200;
+}
+
+.link-project1 {
+    color: #9E00FF;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.link-project2 {
+    color: #25ac4e;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.link-project::after { 
+    content: url'../assets/project-arrow.svg';
+  }
+
+  /*--------------------ABOUT-SEC.-------------------------*/
+
+.about {
+    line-height: 1.6rem;        
+    margin-bottom: 100px;
+}
+
+.about p {
+    margin-bottom: 10px;
+}
+
+.work {
+    font-size: 1.6rem;
+}

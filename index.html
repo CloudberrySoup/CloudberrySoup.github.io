@@ -1,114 +1,123 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
-
-<!----------------------------- HEAD ------------------------------>
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
-    
+    <title>Andrei Prohhorov</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&family=Ubuntu+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app/css/style.css">
+
 </head>
 
-<!----------------------------- BODY ------------------------------>     
-<body class="font-redhat ">
-    
-<!--------------------- Navbar ----------------------> 
-    <nav class="mb6">
+
+<body>
+    <!--Navbar section--------------------------------------------------------->
+    <nav class="navbar">
+        <div class="wrapper navflex">
+            <a class="logo" href="">
+            
+                <h1>Apap</h1>
+            </a>
         
-        <div class="fixed burgerButton">
-            <div class="burgline"></div>
-            <div class="burgline"></div>
-            <div class="burgline"></div>
+            <div class="burger-button">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
         </div>
-        
     </nav>
-    
-<!--------------------- Header ----------------------> 
-    <header class="mb5 ph4">
-        
-        <p class="fn1 maxw5 mv4 "><span class="weight-bolder purplec">Hi</span>, I'm Andrew</p> 
-        
-        <p class="fn4 maxw6 mv3">I do <span class="underline">UX design</span> & <span class="underline">UX research</span></p>
-        
-        <p class="fn4 maxw6 mv2">Currently based in the UK, looking for my next venture. </p>
-        
-        <p class="handicon fn2 mt5 center maxw3">&#128071;</p>
-        
-    </header>
-    
-<!--------------------- Projects ----------------------> 
-    <section class="diagonal-box bg-black white pv4">      
-        <div class="content center maxw6">
-            
-            <div class="flex justify-center">
-                <h2 class="fn2 fw4 mt3 mb5">Projects</h2>
+
+
+    <!--Hero section----------------------------------------------------------->
+    <section class="hero">
+        <div class="wrapper">
+            <div class="location">
+                <img class="dib" src="app/assets/location-icon.svg" alt="Geotag icon." height="20px" width="auto">
+                <p class="dib">Tallinn, Estonia</p>
             </div>
-            
-            <div class="grid">
-                
-                <!Project1>
-                <div class="mb5">
-                    <a href=""><img class="" src="images/project1.png" alt="Italian Trulli"></a>
-                    <p class="fn4 tc lh-copy mt3">An in-depth look into the UX aspects of designing Virtual Reality experiences</p>
-                </div>
-                
-                <!Project2>
-                <div>
-                    <a href=""><img class="" src="images/project2.png" alt="Italian Trulli"></a>
-                    <p class="fn4 tc lh-copy mt3">Of designing Virtual Reality experiences an in-depth look into the UX aspects </p>
-                </div>
-                
+            <h1 class="title"><span class="purple-font">Hi</span>, I'm Andrew.</h1>
+            <h2 class="subtitle">I do <span class="purple-font">UX design</span> & <span class="purple-font">UX research</span></h2>
+            <p class="intro">Currently looking for my next venture.</p>
+            <div class="fingercont">
+                    <img class="finger" src="app/assets/pointing-icon.svg" alt="Finger pointing down.">
             </div>
-            
+        </div>
+    </section>
+
+    <!--Project section----------------------------------------------------------->    
+    <section class="projects">
+        <div class="wrapper">
+            <div class="project1">
+                <h3 class="">VR Timelines</h3>
+                <a href="">
+                    <img src="app/assets/path-overview.jpg" alt="" width="100%" height="">
+                </a>
+                <div class="scroller">
+                    <div class="bar-project1"></div>
+                    <div class="bar-project"></div>
+                    <div class="bar-project"></div>
+                </div>
+                <p class="subtitle-project">An in-depth look into designing a tool to create and view timelines in VR.</p>
+                <h4 class="description">For this project I designed and prototyped an application for visualising user-created timelines in virtual reality. Something else lalala</h4>
+                <a class="link-project1" href="">
+                    <p class="dib">view this case study</p>
+                    <img class="dib" src="app/assets/project-arrow1.svg" alt="Geotag icon." height="11px" width="auto">
+                </a>
+                <div></div>
+            </div>
+
+            <div class="project2">
+                <h3 class="">Second Project</h3>
+                <a href="">
+                    <img src="app/assets/project2.png" alt="" width="100%" height="">
+                </a>
+                <div class="scroller">
+                    <div class="bar-project2"></div>
+                    <div class="bar-project"></div>
+                    <div class="bar-project"></div>
+                </div>
+                <p class="subtitle-project">An in-depth look into designing a tool to create and view timelines in VR.</p>
+                <h4 class="description">For this project I designed and prototyped an application for visualising user-created timelines in virtual reality. Something else lalala</h4>
+                <a class="link-project2" href="">
+                    <p class="dib">view this case study</p>
+                    <img class="dib" src="app/assets/project-arrow2.svg" alt="Geotag icon." height="11px" width="auto">
+                </a>
+                <div></div>
+            </div>
+        </div>
+    </section>
+
+    <!--About section----------------------------------------------------------->    
+    <section class="about">
+        <div class="wrapper">
+            <h2>About me</h2>
+            <p>I have a vision of the Web that is efficient, accessible and intuitive, and I am working towards making that a reality.</p> 
+             <p>My design process is user-centered and iterative, involving end-user insight gathering and testing.</p>
+             <p>I aim to deliver a great experience for the user that fits well within the business model.</p>
+             <p>I am currently available for in-person employment in/around Tallinn as well as globally remotely.</p>
         </div>    
     </section>
-    
-<!--------------------- About ----------------------> 
-    <section class="pv4">    
-        <div class="center maxw6">
-            
-            <div class="flex justify-center">
-                <h2 class="fn2 fw5 mt3 mb3">About</h2>
-            </div>
-            
-            <div class="fn4 lh-title">
-                <p>I have a vision of the Web that is efficient, accessible and intuitive and I am working towards making that a reality.</p>
-                <p>My design process is user-centered and iterative, involving end-user insight gathering and testing. I also use wireframing and prototyping throughout the design process.</p>
-                <p>I aim to deliver a great experience for the user that functions well within the business model.</p>
-                <p>Originally from Estonia, I am currently residing in the UK. I have degrees in Computer Science (UoM) and Human Computer Interactions (UoN). My other interests include VR tech, futurism, rollerblading.
-                </p>
-            </div>    
-            
+
+    <!--Contact section----------------------------------------------------------->    
+    <section>
+        <div class="wrapper">
+            <h2 class="work">Want to work together?</h2>
+            <a href=""><h4>Get in touch!</h4></a>
         </div>
     </section>
-    
-<!--------------------- Contact ----------------------> 
-    <section class="diagonal-box bg-black white mb4 pv4">
-        <div class="content center maxw6">
-            
-            <div class="flex justify-center">
-                <h2 class="fn2 fw4 mt3 mb3 purplec">Say hello!</h2>
-            </div>
-            
-            <div class="fn4 tc lh-title">
-                <p>Email me at andrew@andrew.com.</p>
-                <p>I’m available for in-person employment in/around Nottingham or globally remotely.</p>
-            </div>
-            
-        </div> 
-    </section>
-    
-<!--------------------- Footer ----------------------> 
-    <footer class="tc">
-        <p>Designed & Coded with 🌞 by Andrew</p>
-    </footer>
-    
-</body>
 
+    <!--Contact section----------------------------------------------------------->
+    <footer>
+        <div class="wrapper">
+            <h4>Designed & coded with SUNEMOJI by Andrew</h4>
+            <a href=""><h4>Back to top</h4></a>
+        </div>
+    </footer>
+
+
+</body>
 </html>
