@@ -28,6 +28,10 @@ h2 {
     font-size: 2.3rem;
 }
 
+h4 {
+    margin: 0;
+}
+
 .wrapper {
     position: relative;
     margin: 0 auto;
@@ -65,7 +69,7 @@ h2 {
     //border-style: solid;
     //border-width: 3px;
     //border-color: green;
-    color: black;
+    color: #202224;
 }
 
 .burger-button {
@@ -85,6 +89,11 @@ h2 {
     border-radius: 4px;
 
 }   
+
+.background{
+    background-image: linear-gradient(rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%),
+    url("../assets/shapes-bg.png");
+}
 
 /*--------------------HERO-SEC.-------------------------*/
 
@@ -199,15 +208,11 @@ h2 {
     font-size: 0.9rem;
 }
 
-.link-project::after { 
-    content: url'../assets/project-arrow.svg';
-  }
-
   /*--------------------ABOUT-SEC.-------------------------*/
 
 .about {
     line-height: 1.6rem;        
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .about p {
@@ -217,3 +222,67 @@ h2 {
 .work {
     font-size: 1.6rem;
 }
+
+  /*--------------------CONTACT-SEC.-------------------------*/
+
+.contact {
+    padding: 20px 15px;
+    border: #9E00FF;
+    border-width: 5px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #9E00FF10;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.contact-button {
+    display: inline-block;
+    margin: 10px 0 0 0;
+    padding:13px 20px;
+    background-color: #9E00FF;
+    border-radius: 40px;
+    border-style: none;
+    font-size: 0.8rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+  /*--------------------FOOTER-SEC.-------------------------*/
+
+.footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.border-top {
+    border-top: 2px solid #000000;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    width: 26px;
+    height: 50px;
+    margin: 0 20px;
+}
+
+.credits {
+    font-family: 'Ubuntu Mono', monospace, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 300;
+    padding: 0 auto;
+}
+
+.back-to-top {
+    display: none;
+}
+
+
+
+
